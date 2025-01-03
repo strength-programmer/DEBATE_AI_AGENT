@@ -26,7 +26,7 @@ A Streamlit-based web application that facilitates debates between traditional a
 2. Create and activate a virtual environment:
 3. Install required packages:
 4. Set up OpenAI API key:
-- Go to [OpenAI API Keys](https://platform.openai.com/api-keys)
+-- Go to [OpenAI API Keys](https://platform.openai.com/api-keys)
 - Create a new API key
 - Keep it secure for use in the application
 
