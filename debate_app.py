@@ -83,7 +83,7 @@ if not st.session_state.is_authenticated:
         if api_key.startswith('sk-'):
             st.session_state.api_key = api_key
             st.session_state.is_authenticated = True
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("Please enter a valid OpenAI API key")
     
@@ -178,7 +178,7 @@ else:
             # Clear all session state
             for key in list(st.session_state.keys()):
                 del st.session_state[key]
-            st.experimental_rerun()
+            st.rerun()
 
         st.markdown('<div class="debate-controls">', unsafe_allow_html=True)
 
