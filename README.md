@@ -79,14 +79,6 @@ instructions="""Your custom instructions here"""
 )
 ```
 
-
-## 📞 Support
-
-For issues and feature requests:
-1. Check existing issues
-2. Create a new issue with details
-3. Follow the issue template
-
 ---
 
 Built with ❤️ using Streamlit and OpenAI
