@@ -31,3 +31,19 @@ A Streamlit-based web application that facilitates debates between traditional a
 - Keep it secure for use in the application
 
 ### Project Structure
+
+## 🎮 Running the Application
+
+1. Navigate to the project directory
+2. Run the Streamlit application:
+```bash
+  python -m streamlit run debate_app.py ```
+3. Enter your OpenAI API key when prompted
+
+## 🛠️ Configuration
+
+### OpenAI Swarm Setup
+
+The application uses the Swarm library to manage AI agents. Here's how to configure it:
+
+1. Install Swarm:
