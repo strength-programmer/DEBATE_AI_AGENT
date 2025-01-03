@@ -25,6 +25,7 @@ A Streamlit-based web application that facilitates debates between traditional a
 1. Clone the repository:
   ```bash
    git clone https://github.com/username/DEBATE_AI_AGENT.git
+
 2. Create and activate a virtual environment:
 
 3. Install required packages:
