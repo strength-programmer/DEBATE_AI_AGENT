@@ -11,7 +11,18 @@ A Streamlit-based web application that facilitates debates between traditional a
 - Customizable number of debate rounds
 - Modern, responsive UI with animations
 - Secure API key management
+  
+## THE AGENTS
+# AI Teaching Debate Agents
 
+## Traditional Professor 🎓
+An AI agent that defends traditional teaching methods, emphasizing human interaction and proven classroom techniques. Opposes excessive technology use in education and argues for maintaining the human element in teaching.
+
+## Modern Professor 🤖
+An AI agent that advocates for AI-enhanced education and technological innovation in teaching. Champions data-driven, personalized learning approaches and argues for modernizing educational methods.
+
+## How They Work
+The agents engage in a structured debate, taking turns to present concise arguments (max 2 sentences) about their respective teaching philosophies. Their interaction creates an engaging discussion about the future of education, balancing tradition with innovation. 
 ## 🚀 Setup and Installation
 
 ### Prerequisites
@@ -69,63 +80,6 @@ instructions="""Your custom instructions here"""
 )
 ```
 
-## 🎨 Customization
-
-### Styling
-- Modify `style.css` to customize the appearance
-- Update color variables in `:root` section
-- Adjust animations and transitions
-
-### Debate Topics
-- Edit example topics in `debate.py`
-- Modify the topic suggestions section
-
-### Agent Behavior
-- Update agent instructions in `debate.py`
-- Customize debate parameters like number of rounds
-
-## 🔒 Security
-
-- API keys are stored in session state
-- Keys are not persisted between sessions
-- Use environment variables for production deployment
-
-## 🚧 Troubleshooting
-
-Common issues and solutions:
-
-1. **API Key Issues**
-   - Ensure key starts with 'sk-'
-   - Check OpenAI account status
-   - Verify API key permissions
-
-2. **Copy Functionality**
-   - Enable JavaScript in browser
-   - Check browser permissions
-   - Try using the clipboard fallback
-
-3. **Style Issues**
-   - Clear browser cache
-   - Check CSS file loading
-   - Verify file paths
-
-## 📝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Push to the branch
-5. Open a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- OpenAI for the API
-- Streamlit for the framework
-- Contributors and testers
 
 ## 📞 Support
 
