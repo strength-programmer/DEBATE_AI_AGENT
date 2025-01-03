@@ -27,7 +27,8 @@ A Streamlit-based web application that facilitates debates between traditional a
    git clone https://github.com/username/DEBATE_AI_AGENT.git
 ```
 2. Create and activate a virtual environment:
-
+bash
+python -m venv venv
 3. Install required packages:
 
 4. Set up OpenAI API key:
