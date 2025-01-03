@@ -12,7 +12,6 @@ A Streamlit-based web application that facilitates debates between traditional a
 - Modern, responsive UI with animations
 - Secure API key management
   
-## THE AGENTS
 # AI Teaching Debate Agents
 
 ## Traditional Professor 🎓
